@@ -1,0 +1,9 @@
+function person(name,id){
+    this.firstname=name;
+    this.idnum=id;
+    
+}
+//we can create multiple person object by using above function constructor
+ const firstOne = new person('bubun',178);
+ const firstTwo = new person('bubun2',179);
+ console.log(firstTwo.firstname);
